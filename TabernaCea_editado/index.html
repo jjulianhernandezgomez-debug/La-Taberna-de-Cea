@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#e9e4d7" />
+  <title>La Taberna de Cea · Cea Bermúdez 62</title>
+  <meta name="description" content="Taberna en Chamberí (Madrid). Tapas, tortillas y postres caseros. Terraza, vinos y cocina tradicional con toque moderno." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="Inicio">
+      <span class="brand__badge">62</span>
+      <span class="brand__txt">
+        <span class="brand__name">La Taberna de Cea</span>
+        <span class="brand__sub">Cea Bermúdez · Chamberí · Madrid</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Navegación">
+      <a href="#inicio" class="nav__link is-active">Inicio</a>
+      <a href="#quienes" class="nav__link">Quiénes somos</a>
+      <a href="#especialidades" class="nav__link">Especialidades</a>
+      <a href="#menu" class="nav__link">Menú</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+    </nav>
+
+    <div class="actions">
+      <button class="btn btn--primary" id="openReserveBtn" type="button">
+        <span class="btn__icon" aria-hidden="true">✶</span>
+        <span class="btn__text">Reservar</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" role="img" aria-label="Terraza de La Taberna de Cea"></div>
+
+    <div class="hero__overlay">
+      <div class="hero__content">
+        <div class="hero__chips">
+          <span class="chip chip--gold">Taberna</span>
+          <span class="chip chip--sage">Terraza</span>
+          <span class="chip chip--soft">Tapas & Tortillas</span>
+          <span class="chip chip--soft">10–20 €</span>
+        </div>
+
+        <h1 class="hero__title">La Taberna de Cea</h1>
+
+        <p class="hero__lead">
+          Un espacio acogedor donde la cocina tradicional española se combina con un toque actual.
+          Tapas, tortillas y platos elaborados con producto fresco y de temporada, en un ambiente cálido y cercano.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#menu">Ver menú</a>
+          <a class="btn btn--ghost" target="_blank" rel="noreferrer"
+             href="https://www.google.com/maps/search/?api=1&query=La%20Taberna%20de%20Cea%2C%20C.%20de%20Cea%20Berm%C3%BAdez%2C%2062%2C%20Madrid">
+            Cómo llegar
+          </a>
+          <a class="btn btn--ghost" href="tel:+34917655977">917 65 59 77</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__k">Valoración</div>
+            <div class="stat__v">3,9 <span class="stars" aria-hidden="true">★★★★☆</span></div>
+            <div class="stat__s">762 reseñas</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k">Horario</div>
+            <div class="stat__v">Mar–Dom 11:00–1:00</div>
+            <div class="stat__s">Lunes cerrado</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k">Dirección</div>
+            <div class="stat__v">Cea Bermúdez, 62</div>
+            <div class="stat__s">Chamberí · 28003</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Franja horarios -->
+  <section class="strip">
+    <div class="strip__inner">
+      <div class="strip__title">Horarios</div>
+      <div class="strip__grid">
+        <div class="strip__row"><span>Lunes</span><strong class="danger">Cerrado</strong></div>
+        <div class="strip__row"><span>Martes</span><strong>11:00–1:00</strong></div>
+        <div class="strip__row"><span>Miércoles</span><strong>11:00–1:00</strong></div>
+        <div class="strip__row"><span>Jueves</span><strong>11:00–1:00</strong></div>
+        <div class="strip__row"><span>Viernes</span><strong>11:00–1:00</strong></div>
+        <div class="strip__row"><span>Sábado</span><strong>11:00–1:00</strong></div>
+        <div class="strip__row"><span>Domingo</span><strong>11:00–1:00</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <!-- Quiénes somos (solo 1 foto) -->
+    <section class="section" id="quienes">
+      <div class="section__text">
+        <h2>La esencia de La Taberna de Cea</h2>
+        <p class="lead">
+          Taberna de Cea, situada en Cea Bermúdez, Madrid, es un espacio acogedor donde la cocina tradicional española se combina con un toque moderno.
+          Ofrecemos tapas y platos elaborados con productos frescos y de temporada, en un ambiente cálido y cercano.
+        </p>
+        <p class="muted">
+          Nuestra cuidada selección de vinos y el servicio profesional garantizan una experiencia única, ideal para comidas informales,
+          cenas entre amigos o una copa tranquila. Un lugar de referencia en Madrid para quienes buscan calidad, buen trato y el sabor auténtico.
+        </p>
+
+        <ul class="bullets">
+          <li>Producto de temporada y cocina casera.</li>
+          <li>Tapas, tortillas recién hechas y raciones para compartir.</li>
+          <li>Vinos por copa para acompañar sin complicaciones.</li>
+        </ul>
+
+        <div class="miniCtas">
+          <button class="btn btn--primary" id="openReserveBtn2" type="button">Reservar mesa</button>
+          <a class="btn btn--ghost" href="#galeria">Ver fotos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Especialidades -->
+    <section class="section section--beige" id="especialidades">
+      <div class="section__head center">
+        <h2>Nuestras especialidades</h2>
+        <p class="muted">Sabor, producto y un punto actual en cada bocado.</p>
+      </div>
+
+      <div class="specials">
+        <article class="special">
+          <div class="special__img" style="background-image:url('assets/plato.jpg')" aria-hidden="true"></div>
+          <h3>Platos</h3>
+          <p class="muted">Recetas tradicionales, punto exacto y raciones para disfrutar.</p>
+          <button class="linkBtn" type="button" data-scroll="#menu">Ver menú</button>
+        </article>
+
+        <article class="special">
+          <div class="special__img" style="background-image:url('assets/terraza.jpg')" aria-hidden="true"></div>
+          <h3>Terraza</h3>
+          <p class="muted">Un rincón perfecto para el aperitivo, cena y una copa tranquila.</p>
+          <button class="linkBtn" type="button" data-scroll="#contacto">Planear visita</button>
+        </article>
+
+        <article class="special">
+          <div class="special__img" style="background-image:url('assets/interior.jpg')" aria-hidden="true"></div>
+          <h3>Vinos</h3>
+          <p class="muted">Rioja, Ribera, blancos y un espumoso para brindar.</p>
+          <button class="linkBtn" type="button" data-scroll="#vinos">Ver vinos</button>
+        </article>
+
+        <article class="special">
+          <div class="special__img" style="background-image:url('assets/fachada.jpg')" aria-hidden="true"></div>
+          <h3>De la casa</h3>
+          <p class="muted">Croquetas, tortillas recién hechas y postres caseros.</p>
+          <button class="linkBtn" type="button" data-scroll="#menu">Ir al menú</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Menú por secciones (tabs) -->
+    <section class="section" id="menu">
+      <div class="section__head">
+        <div>
+          <h2>Menú</h2>
+          <p class="muted">Selecciona una sección para ver los platos.</p>
+        </div>
+      </div>
+
+      <div class="menuTabs" id="menuTabs" aria-label="Secciones del menú"></div>
+
+      <div class="menuSection">
+        <div class="menuSection__head">
+          <h3 id="menuTitle">De La Huerta</h3>
+          <p class="muted" id="menuSubtitle">Entrantes frescos y de temporada.</p>
+        </div>
+
+        <div class="menuList" id="menuList" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Vinos (igual que antes) -->
+    <section class="section section--beige" id="vinos">
+      <div class="section__head">
+        <div>
+          <h2>Vinos</h2>
+          <p class="muted">Por copa y opciones especiales.</p>
+        </div>
+      </div>
+
+      <div class="wineGrid">
+        <article class="wineCard">
+          <h3>Rioja</h3>
+          <ul class="list">
+            <li><span>Cune</span><strong>2,45 €</strong></li>
+            <li><span>Asúa</span><strong>3,00 €</strong></li>
+          </ul>
+        </article>
+        <article class="wineCard">
+          <h3>Ribera</h3>
+          <ul class="list">
+            <li><span>Black Roble</span><strong>2,45 €</strong></li>
+            <li><span>Black Crianza</span><strong>3,00 €</strong></li>
+          </ul>
+        </article>
+        <article class="wineCard">
+          <h3>Blancos y otros</h3>
+          <ul class="list">
+            <li><span>Monopole S. XXI (Rueda)</span><strong>2,25 €</strong></li>
+            <li><span>Boal de Arousa (Albariño)</span><strong>3,00 €</strong></li>
+            <li><span>Enate (Somontano)</span><strong>2,45 €</strong></li>
+            <li><span>Semidulce (Cune)</span><strong>2,25 €</strong></li>
+            <li><span>Rosado (Cune)</span><strong>2,25 €</strong></li>
+            <li><span>Pedro Ximenez Fino (La Ina)</span><strong>2,00 €</strong></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="callout">
+        <div>
+          <h3>Espumoso · Chardonnay Rosé</h3>
+          <p class="muted">Solo venta por botella.</p>
+        </div>
+        <div class="callout__right">
+          <strong class="priceBig">27,00 €</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section" id="galeria">
+      <div class="section__head">
+        <div>
+          <h2>Galería</h2>
+          <p class="muted">Un vistazo al local y su ambiente.</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <button class="gallery__item" data-img="assets/terraza.jpg" data-alt="Terraza">
+          <img src="assets/terraza.jpg" alt="Terraza" loading="lazy">
+          <span class="gallery__cap">Terraza</span>
+        </button>
+        <button class="gallery__item" data-img="assets/fachada.jpg" data-alt="Fachada">
+          <img src="assets/fachada.jpg" alt="Fachada" loading="lazy">
+          <span class="gallery__cap">Fachada</span>
+        </button>
+        <button class="gallery__item" data-img="assets/interior.jpg" data-alt="Interior">
+          <img src="assets/interior.jpg" alt="Interior" loading="lazy">
+          <span class="gallery__cap">Interior</span>
+        </button>
+        <button class="gallery__item" data-img="assets/plato.jpg" data-alt="Plato">
+          <img src="assets/plato.jpg" alt="Plato" loading="lazy">
+          <span class="gallery__cap">Plato</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto (dejado igual) -->
+    <section class="section section--beige" id="contacto">
+      <div class="section__head">
+        <div>
+          <h2>Contacto</h2>
+          <p class="muted">Ubicación, horario y acceso rápido.</p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <article class="contactCard">
+          <h3>Dirección</h3>
+          <p>C. de Cea Bermúdez, 62<br>Chamberí, 28003 Madrid</p>
+
+          <h3 style="margin-top:14px;">Teléfono</h3>
+          <p><a class="link" href="tel:+34917655977">917 65 59 77</a></p>
+
+          <h3 style="margin-top:14px;">Servicios</h3>
+          <p class="muted">Terraza · Cena · Se admiten perros en el exterior</p>
+
+          <div class="ctaRow">
+            <a class="btn btn--primary" target="_blank" rel="noreferrer"
+               href="https://www.google.com/maps/search/?api=1&query=La%20Taberna%20de%20Cea%2C%20C.%20de%20Cea%20Berm%C3%BAdez%2C%2062%2C%20Madrid">
+              Cómo llegar
+            </a>
+            <a class="btn btn--ghost" href="#menu">Ver menú</a>
+          </div>
+        </article>
+
+        <article class="mapCard">
+          <iframe
+            title="Mapa: La Taberna de Cea"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=La%20Taberna%20de%20Cea%20C.%20de%20Cea%20Berm%C3%BAdez%2062%20Madrid&output=embed"></iframe>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__name">La Taberna de Cea</div>
+          <div class="muted small">Cea Bermúdez, 62 · Chamberí · Madrid</div>
+        </div>
+
+        <div class="footer__icons" aria-label="Enlaces">
+          <a class="icon" href="tel:+34917655977" aria-label="Teléfono">☎</a>
+          <a class="icon" target="_blank" rel="noreferrer"
+             href="https://www.google.com/maps/search/?api=1&query=La%20Taberna%20de%20Cea%2C%20C.%20de%20Cea%20Berm%C3%BAdez%2C%2062%2C%20Madrid"
+             aria-label="Mapa">⌁</a>
+          <a class="icon" href="#menu" aria-label="Menú">≡</a>
+        </div>
+      </div>
+      <div class="footer__bottom muted small">© <span id="year"></span></div>
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__backdrop" data-close></div>
+    <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+      <img id="lightboxImg" alt="" />
+      <div class="lightbox__foot">
+        <div class="muted small" id="lightboxCaption"></div>
+        <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Reservas -->
+  <div class="modal" id="reserveModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Reserva">
+      <div class="modal__head">
+        <div>
+          <div class="muted small">Reserva</div>
+          <h3>Solicitar mesa</h3>
+        </div>
+        <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+      </div>
+
+      <form class="form" id="reserveForm">
+        <div class="form__grid">
+          <label><span>Nombre</span><input required name="name" placeholder="Tu nombre" /></label>
+          <label><span>Teléfono</span><input required name="phone" placeholder="Ej. 600 000 000" /></label>
+          <label><span>Día</span><input required name="date" type="date" /></label>
+          <label><span>Hora</span><input required name="time" type="time" /></label>
+          <label><span>Personas</span><input required name="people" type="number" min="1" max="20" value="2" /></label>
+          <label>
+            <span>Preferencia</span>
+            <select name="where">
+              <option>Terraza</option>
+              <option>Interior</option>
+              <option>Indiferente</option>
+            </select>
+          </label>
+        </div>
+
+        <label><span>Notas</span><textarea name="notes" placeholder="Alergias, carrito, etc."></textarea></label>
+
+        <div class="modal__foot">
+          <button class="btn btn--primary" type="submit">Enviar</button>
+          <a class="btn btn--ghost" href="tel:+34917655977">Llamar</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
